@@ -1,0 +1,22 @@
+kind = "mobile"
+previewPath = "/mobile/"
+title = "Smart Flash Cards Mobile"
+version = "1.0.0"
+id = "artifacts/student-mobile"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+name = "expo"
+paths = [ "/mobile/" ]
+localPort = 25887
+router = "expo-domain"
+
+[services.development]
+run = "pnpm --filter @workspace/student-mobile run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/student-mobile", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/student-mobile", "run", "serve" ]

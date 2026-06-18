@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Install on the server:
+#   cp scripts/git-hooks/post-merge .git/hooks/post-merge
+#   chmod +x .git/hooks/post-merge deploy.sh
+#
+# After `git pull`, this hook rebuilds the Docker image and restarts the app.
+set -euo pipefail
+
+ROOT="$(git rev-parse --show-toplevel)"
+exec "${ROOT}/deploy.sh"

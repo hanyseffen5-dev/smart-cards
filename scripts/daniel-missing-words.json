@@ -1,0 +1,356 @@
+{
+  "total": 249,
+  "missingPng": 116,
+  "words": [
+    {
+      "id": 3,
+      "word": "darken",
+      "example": "The room began to darken at night.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 96,
+      "word": "water",
+      "example": "Please drink water.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 97,
+      "word": "drink",
+      "example": "I drink tea in the morning.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 100,
+      "word": "other",
+      "example": "I want the other book.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 101,
+      "word": "proposal",
+      "example": "His proposal was simple and clear.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 104,
+      "word": "healthy",
+      "example": "She eats healthy food.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 105,
+      "word": "strong",
+      "example": "He is strong enough to carry the box.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 106,
+      "word": "clear-minded",
+      "example": "After sleeping well, I feel clear-minded.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 107,
+      "word": "honor",
+      "example": "We honor our parents.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 108,
+      "word": "faithfulness",
+      "example": "Her faithfulness to her friends was strong.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 109,
+      "word": "excel",
+      "example": "She excels in math.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 112,
+      "word": "wisdom",
+      "example": "Grandparents often share wisdom.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 114,
+      "word": "understand",
+      "example": "I understand the lesson now.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 115,
+      "word": "vision",
+      "example": "He described a vision he saw at night.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 116,
+      "word": "interpret",
+      "example": "Can you interpret this message?",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 117,
+      "word": "dream",
+      "example": "I had a strange dream.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 118,
+      "word": "silent",
+      "example": "The house was silent at night.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 119,
+      "word": "awake",
+      "example": "I awake early every morning.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 120,
+      "word": "terror",
+      "example": "He felt terror when he heard the loud noise.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 121,
+      "word": "vivid",
+      "example": "The story gave me a vivid picture in my mind.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 122,
+      "word": "forgotten",
+      "example": "The old keys were forgotten in a drawer.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 123,
+      "word": "waking",
+      "example": "After waking, he drank a glass of water.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 124,
+      "word": "disturbed",
+      "example": "She felt disturbed by the bad news.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 125,
+      "word": "demand",
+      "example": "The teacher will demand good behavior in class.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 126,
+      "word": "magician",
+      "example": "The magician did a surprising trick.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 127,
+      "word": "astrologer",
+      "example": "The astrologer talked about the stars.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 128,
+      "word": "meaning",
+      "example": "What is the meaning of this word?",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 129,
+      "word": "fury",
+      "example": "He shouted in fury after the argument.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 130,
+      "word": "decree",
+      "example": "The leader will decree a new rule.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 131,
+      "word": "death",
+      "example": "The story was about life and death.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 132,
+      "word": "wise",
+      "example": "My grandfather is a wise person.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 133,
+      "word": "pray",
+      "example": "They pray together every evening.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 134,
+      "word": "reveal",
+      "example": "Please reveal the answer to the question.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 135,
+      "word": "mystery",
+      "example": "The missing book was a mystery.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 136,
+      "word": "stand",
+      "example": "Please stand near the door.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 137,
+      "word": "heaven",
+      "example": "They looked up at the heaven at night.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 138,
+      "word": "describe",
+      "example": "Can you describe your favorite place?",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 139,
+      "word": "colossal",
+      "example": "They saw a colossal statue in the city.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 140,
+      "word": "statue",
+      "example": "The statue is in the center of the park.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 141,
+      "word": "head",
+      "example": "He has a hat on his head.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 142,
+      "word": "gold",
+      "example": "This ring is made of gold.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 143,
+      "word": "chest",
+      "example": "He put his hand on his chest.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 144,
+      "word": "silver",
+      "example": "She wore a silver necklace.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 145,
+      "word": "belly",
+      "example": "My belly hurts after eating too much.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 146,
+      "word": "bronze",
+      "example": "The medal was made of bronze.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 147,
+      "word": "leg",
+      "example": "He hurt his leg while running.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 148,
+      "word": "foot",
+      "example": "My foot is tired after walking.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 149,
+      "word": "mix",
+      "example": "Mix the sugar with the tea.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 150,
+      "word": "clay",
+      "example": "The child made a cup from clay.",
+      "example_translation": null,
+      "has_db_image": false
+    },
+    {
+      "id": 153,
+      "word": "end",
+      "example": "At the end of the movie, everyone clapped.",
+      "example_translation": null,
+      "has_db_image": false
+    }
+  ]
+}

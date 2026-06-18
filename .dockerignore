@@ -1,0 +1,27 @@
+# Dependencies and build output are recreated inside the image.
+node_modules
+**/node_modules
+dist
+**/dist
+.vite
+**/.vite
+
+# Runtime data and migrated images are mounted as volumes (not baked in).
+.data
+public
+
+# Local env files — pass secrets at runtime via --env-file instead.
+.env
+.env.mobile
+
+# VCS / editor / OS noise
+.git
+.gitignore
+.cursor
+*.log
+**/*.log
+.DS_Store
+
+# Not needed to run the web app
+artifacts/student-mobile/.expo
+smart-flashcards-download*

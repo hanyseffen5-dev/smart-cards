@@ -1,0 +1,865 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: Smart Flash Cards AI API
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: students
+    description: Student management
+  - name: lessons
+    description: Lesson management
+  - name: words
+    description: Word/flashcard management
+  - name: ai
+    description: AI-powered operations
+  - name: progress
+    description: Student progress tracking
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+
+  /favorites:
+    get:
+      operationId: getFavorites
+      tags: [students]
+      summary: Get favorites for a student
+      parameters:
+        - name: studentId
+          in: query
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: List of favorites
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GetFavoritesResponse"
+    post:
+      operationId: toggleFavorite
+      tags: [students]
+      summary: Toggle a word favorite for a student
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ToggleFavoriteBody"
+      responses:
+        "200":
+          description: Toggle result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ToggleFavoriteResponse"
+
+  /students/fingerprint:
+    post:
+      operationId: upsertStudentByFingerprint
+      tags: [students]
+      summary: Upsert a student by device fingerprint
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpsertStudentByFingerprintBody"
+      responses:
+        "200":
+          description: Student upserted
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Student"
+
+  /students:
+    get:
+      operationId: getStudents
+      tags: [students]
+      summary: List all students
+      responses:
+        "200":
+          description: List of students
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Student"
+    post:
+      operationId: createStudent
+      tags: [students]
+      summary: Create a new student
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateStudentBody"
+      responses:
+        "201":
+          description: Student created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Student"
+
+  /students/{id}:
+    get:
+      operationId: getStudent
+      tags: [students]
+      summary: Get a student by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Student found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Student"
+        "404":
+          description: Not found
+    put:
+      operationId: updateStudent
+      tags: [students]
+      summary: Update a student
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateStudentBody"
+      responses:
+        "200":
+          description: Student updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Student"
+
+  /lessons:
+    get:
+      operationId: getLessons
+      tags: [lessons]
+      summary: List all lessons
+      responses:
+        "200":
+          description: List of lessons
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Lesson"
+    post:
+      operationId: createLesson
+      tags: [lessons]
+      summary: Create a lesson
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateLessonBody"
+      responses:
+        "201":
+          description: Lesson created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Lesson"
+
+  /lessons/{id}:
+    get:
+      operationId: getLesson
+      tags: [lessons]
+      summary: Get a lesson by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Lesson found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LessonWithWords"
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteLesson
+      tags: [lessons]
+      summary: Delete a lesson
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+
+  /lessons/{id}/words:
+    get:
+      operationId: getLessonWords
+      tags: [words]
+      summary: Get all words for a lesson
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Words list
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Word"
+
+  /words:
+    get:
+      operationId: getWords
+      tags: [words]
+      summary: List all words
+      responses:
+        "200":
+          description: List of words
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Word"
+    post:
+      operationId: createWord
+      tags: [words]
+      summary: Create a word
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateWordBody"
+      responses:
+        "201":
+          description: Word created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Word"
+
+  /words/{id}:
+    get:
+      operationId: getWord
+      tags: [words]
+      summary: Get a word by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Word found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Word"
+    put:
+      operationId: updateWord
+      tags: [words]
+      summary: Update a word
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateWordBody"
+      responses:
+        "200":
+          description: Word updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Word"
+    delete:
+      operationId: deleteWord
+      tags: [words]
+      summary: Delete a word
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+
+  /words/{id}/favorite:
+    patch:
+      operationId: toggleWordFavorite
+      tags: [words]
+      summary: Toggle word favorite status
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Word"
+
+  /ai/analyze-text:
+    post:
+      operationId: analyzeText
+      tags: [ai]
+      summary: Analyze text and extract difficult words
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AnalyzeTextBody"
+      responses:
+        "200":
+          description: Extracted words
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnalyzeTextResult"
+
+  /ai/extract-text-from-image:
+    post:
+      operationId: extractTextFromImage
+      tags: [ai]
+      summary: Extract text from an image or PDF using OCR (OpenAI vision)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ExtractTextFromImageBody"
+      responses:
+        "200":
+          description: Extracted text
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ExtractTextFromImageResult"
+        "400":
+          description: Bad request
+
+  /progress:
+    get:
+      operationId: getProgress
+      tags: [progress]
+      summary: Get progress for a student
+      parameters:
+        - name: studentId
+          in: query
+          required: false
+          schema:
+            type: ["integer", "null"]
+      responses:
+        "200":
+          description: Progress list
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Progress"
+    post:
+      operationId: recordProgress
+      tags: [progress]
+      summary: Record pronunciation attempt
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RecordProgressBody"
+      responses:
+        "201":
+          description: Progress recorded
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Progress"
+
+  /progress/stats:
+    get:
+      operationId: getProgressStats
+      tags: [progress]
+      summary: Get overall stats for a student
+      parameters:
+        - name: studentId
+          in: query
+          required: false
+          schema:
+            type: ["integer", "null"]
+      responses:
+        "200":
+          description: Stats
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProgressStats"
+
+components:
+  schemas:
+    GetFavoritesResponse:
+      type: array
+      items:
+        $ref: "#/components/schemas/StudentFavorite"
+
+    StudentFavorite:
+      type: object
+      properties:
+        id:
+          type: integer
+        studentId:
+          type: integer
+        wordId:
+          type: integer
+        createdAt:
+          type: string
+      required:
+        - id
+        - studentId
+        - wordId
+        - createdAt
+
+    ToggleFavoriteBody:
+      type: object
+      properties:
+        studentId:
+          type: integer
+        wordId:
+          type: integer
+      required:
+        - studentId
+        - wordId
+
+    ToggleFavoriteResponse:
+      type: object
+      properties:
+        isFavorite:
+          type: boolean
+        wordId:
+          type: integer
+        studentId:
+          type: integer
+      required:
+        - isFavorite
+        - wordId
+        - studentId
+
+    UpsertStudentByFingerprintBody:
+      type: object
+      properties:
+        fingerprint:
+          type: string
+        name:
+          type: ["string", "null"]
+        level:
+          type: string
+          enum: [beginner, intermediate, advanced]
+          nullable: true
+      required:
+        - fingerprint
+
+    ExtractTextFromImageBody:
+      type: object
+      properties:
+        imageBase64:
+          type: string
+          description: Base64-encoded file data. For images (JPEG, PNG, WEBP) OpenAI vision is used. For PDFs (application/pdf) the raw PDF bytes are extracted server-side with pdf-parse.
+        mimeType:
+          type: string
+          description: MIME type of the file (image/jpeg, image/png, image/webp, image/gif, application/pdf)
+      required:
+        - imageBase64
+        - mimeType
+
+    ExtractTextFromImageResult:
+      type: object
+      properties:
+        text:
+          type: string
+          description: Extracted text from the image
+      required:
+        - text
+
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+
+    Student:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        school:
+          type: ["string", "null"]
+        grade:
+          type: ["string", "null"]
+        level:
+          type: string
+          enum: [beginner, intermediate, advanced]
+        deviceFingerprint:
+          type: ["string", "null"]
+        createdAt:
+          type: string
+      required:
+        - id
+        - name
+        - level
+        - createdAt
+
+    CreateStudentBody:
+      type: object
+      properties:
+        name:
+          type: string
+        school:
+          type: ["string", "null"]
+        grade:
+          type: ["string", "null"]
+        level:
+          type: string
+          enum: [beginner, intermediate, advanced]
+      required:
+        - name
+        - level
+
+    Lesson:
+      type: object
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        text:
+          type: string
+        wordCount:
+          type: integer
+        level:
+          type: string
+          enum: [beginner, intermediate, advanced, all]
+        createdByStudentId:
+          type: ["integer", "null"]
+        createdAt:
+          type: string
+      required:
+        - id
+        - title
+        - text
+        - wordCount
+        - createdAt
+
+    LessonWithWords:
+      type: object
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        text:
+          type: string
+        wordCount:
+          type: integer
+        level:
+          type: string
+          enum: [beginner, intermediate, advanced, all]
+        createdByStudentId:
+          type: ["integer", "null"]
+        createdAt:
+          type: string
+        words:
+          type: array
+          items:
+            $ref: "#/components/schemas/Word"
+      required:
+        - id
+        - title
+        - text
+        - wordCount
+        - createdAt
+        - words
+
+    CreateLessonBody:
+      type: object
+      properties:
+        title:
+          type: string
+        text:
+          type: string
+        level:
+          type: string
+          enum: [beginner, intermediate, advanced, all]
+        createdByStudentId:
+          type: ["integer", "null"]
+      required:
+        - title
+        - text
+
+    Word:
+      type: object
+      properties:
+        id:
+          type: integer
+        lessonId:
+          type: integer
+        word:
+          type: string
+        translation:
+          type: string
+        imageUrl:
+          type: ["string", "null"]
+        audioUrl:
+          type: ["string", "null"]
+        example:
+          type: ["string", "null"]
+        exampleTranslation:
+          type: ["string", "null"]
+        difficulty:
+          type: string
+          enum: [easy, medium, hard]
+        partOfSpeech:
+          type: ["string", "null"]
+        isFavorite:
+          type: boolean
+        createdAt:
+          type: string
+      required:
+        - id
+        - lessonId
+        - word
+        - translation
+        - difficulty
+        - isFavorite
+        - createdAt
+
+    CreateWordBody:
+      type: object
+      properties:
+        lessonId:
+          type: integer
+        word:
+          type: string
+        translation:
+          type: string
+        imageUrl:
+          type: ["string", "null"]
+        audioUrl:
+          type: ["string", "null"]
+        example:
+          type: ["string", "null"]
+        exampleTranslation:
+          type: ["string", "null"]
+        difficulty:
+          type: string
+          enum: [easy, medium, hard]
+        partOfSpeech:
+          type: ["string", "null"]
+      required:
+        - lessonId
+        - word
+        - translation
+        - difficulty
+
+    AnalyzeTextBody:
+      type: object
+      properties:
+        text:
+          type: string
+        level:
+          type: string
+          enum: [beginner, intermediate, advanced]
+        lessonTitle:
+          type: ["string", "null"]
+        existingWords:
+          type: array
+          items:
+            type: string
+      required:
+        - text
+        - level
+
+    AnalyzeTextResult:
+      type: object
+      properties:
+        lessonTitle:
+          type: string
+        words:
+          type: array
+          items:
+            $ref: "#/components/schemas/ExtractedWord"
+      required:
+        - lessonTitle
+        - words
+
+    ExtractedWord:
+      type: object
+      properties:
+        word:
+          type: string
+        translation:
+          type: string
+        example:
+          type: string
+        exampleTranslation:
+          type: ["string", "null"]
+        difficulty:
+          type: string
+          enum: [easy, medium, hard]
+        partOfSpeech:
+          type: string
+        imageUrl:
+          type: ["string", "null"]
+      required:
+        - word
+        - translation
+        - example
+        - difficulty
+        - partOfSpeech
+
+    Progress:
+      type: object
+      properties:
+        id:
+          type: integer
+        studentId:
+          type: ["integer", "null"]
+        wordId:
+          type: integer
+        score:
+          type: integer
+        attempts:
+          type: integer
+        lastAttemptAt:
+          type: string
+        word:
+          type: ["string", "null"]
+      required:
+        - id
+        - wordId
+        - score
+        - attempts
+        - lastAttemptAt
+
+    RecordProgressBody:
+      type: object
+      properties:
+        studentId:
+          type: ["integer", "null"]
+        wordId:
+          type: integer
+        score:
+          type: integer
+      required:
+        - wordId
+        - score
+
+    ProgressStats:
+      type: object
+      properties:
+        totalWords:
+          type: integer
+        masteredWords:
+          type: integer
+        averageScore:
+          type: number
+        totalAttempts:
+          type: integer
+        recentActivity:
+          type: array
+          items:
+            $ref: "#/components/schemas/Progress"
+        lessonProgress:
+          type: array
+          items:
+            $ref: "#/components/schemas/LessonProgressItem"
+      required:
+        - totalWords
+        - masteredWords
+        - averageScore
+        - totalAttempts
+        - recentActivity
+        - lessonProgress
+
+    LessonProgressItem:
+      type: object
+      properties:
+        lessonId:
+          type: integer
+        lessonTitle:
+          type: string
+        totalWords:
+          type: integer
+        masteredWords:
+          type: integer
+        averageScore:
+          type: number
+      required:
+        - lessonId
+        - lessonTitle
+        - totalWords
+        - masteredWords
+        - averageScore

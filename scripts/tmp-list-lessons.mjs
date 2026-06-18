@@ -1,0 +1,10 @@
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+import { createRequire } from "node:module";
+const rootDir = join(dirname(fileURLToPath(import.meta.url)), "..");
+const require = createRequire(join(rootDir, "lib/db/package.json"));
+const { PGlite } = require("@electric-sql/pglite");
+const client = new PGlite(join(rootDir, ".data", "flashcards"));
+const r = await client.query("SELECT id, title, word_count FROM lessons ORDER BY id");
+console.log(r.rows);
+await client.close();

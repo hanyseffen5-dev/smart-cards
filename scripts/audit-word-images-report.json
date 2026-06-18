@@ -1,0 +1,2611 @@
+{
+  "apiBase": "http://127.0.0.1:3000",
+  "scannedAt": "2026-06-02T09:45:56.361Z",
+  "totalLessons": 6,
+  "totalWords": 3050,
+  "totalOk": 2625,
+  "totalFailed": 425,
+  "lessons": [
+    {
+      "lessonId": 1,
+      "lessonTitle": "Daniel - The Movie",
+      "total": 249,
+      "ok": 217,
+      "failed": 32,
+      "failedWords": [
+        {
+          "id": 197,
+          "word": "messenger",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 198,
+          "word": "cut down",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 199,
+          "word": "stump",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 213,
+          "word": "time",
+          "status": 0,
+          "error": "The operation was aborted due to timeout"
+        },
+        {
+          "id": 214,
+          "word": "lift",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 215,
+          "word": "eye",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 216,
+          "word": "return",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 217,
+          "word": "praise",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 218,
+          "word": "dominion",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 219,
+          "word": "walk",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 220,
+          "word": "able",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 221,
+          "word": "humble",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 222,
+          "word": "grandson",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 224,
+          "word": "banquet",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 226,
+          "word": "sacred",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 228,
+          "word": "temple",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 229,
+          "word": "use",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 234,
+          "word": "until",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 235,
+          "word": "inscription",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 236,
+          "word": "number",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 237,
+          "word": "bring",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 238,
+          "word": "weigh",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 239,
+          "word": "wanting",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 240,
+          "word": "divide",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 241,
+          "word": "Medes",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 242,
+          "word": "Persians",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 243,
+          "word": "slain",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 244,
+          "word": "hand",
+          "status": 0,
+          "error": "The operation was aborted due to timeout"
+        },
+        {
+          "id": 246,
+          "word": "endure",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 247,
+          "word": "rise",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 248,
+          "word": "slay",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 249,
+          "word": "unbroken",
+          "status": 500,
+          "error": null
+        }
+      ]
+    },
+    {
+      "lessonId": 2,
+      "lessonTitle": "Miscellaneous Words Part 1",
+      "total": 101,
+      "ok": 100,
+      "failed": 1,
+      "failedWords": [
+        {
+          "id": 272,
+          "word": "ridiculous",
+          "status": 500,
+          "error": null
+        }
+      ]
+    },
+    {
+      "lessonId": 3,
+      "lessonTitle": "grade 1",
+      "total": 300,
+      "ok": 300,
+      "failed": 0,
+      "failedWords": []
+    },
+    {
+      "lessonId": 4,
+      "lessonTitle": "grade 2",
+      "total": 600,
+      "ok": 600,
+      "failed": 0,
+      "failedWords": []
+    },
+    {
+      "lessonId": 5,
+      "lessonTitle": "grade 3",
+      "total": 800,
+      "ok": 800,
+      "failed": 0,
+      "failedWords": []
+    },
+    {
+      "lessonId": 6,
+      "lessonTitle": "grade 4",
+      "total": 1000,
+      "ok": 608,
+      "failed": 392,
+      "failedWords": [
+        {
+          "id": 2072,
+          "word": "simile",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2138,
+          "word": "teamwork",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2148,
+          "word": "volleyball",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2159,
+          "word": "sixty-one",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2160,
+          "word": "sixty-two",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2200,
+          "word": "spectroscope",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2204,
+          "word": "supply",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2210,
+          "word": "tax",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2212,
+          "word": "streaming",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2215,
+          "word": "trademark",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2236,
+          "word": "ukulele",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2244,
+          "word": "wrestling",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2245,
+          "word": "skateboard",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2246,
+          "word": "surfing",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2247,
+          "word": "snowboarding",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2249,
+          "word": "snorkeling",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2251,
+          "word": "sixty-three",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2252,
+          "word": "sixty-four",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2253,
+          "word": "sixty-five",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2254,
+          "word": "sixty-six",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2255,
+          "word": "sixty-seven",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2256,
+          "word": "sixty-eight",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2257,
+          "word": "sixty-nine",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2268,
+          "word": "strait",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2274,
+          "word": "thermal",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2282,
+          "word": "stanza",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2283,
+          "word": "verse",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2292,
+          "word": "sphere",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2304,
+          "word": "suffrage",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2312,
+          "word": "thorax",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2316,
+          "word": "tendon",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2324,
+          "word": "wedge",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2330,
+          "word": "wheelbarrow",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2341,
+          "word": "stereotype",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2346,
+          "word": "tolerance",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2362,
+          "word": "softball",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2366,
+          "word": "triathlon",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2371,
+          "word": "tsunami",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2376,
+          "word": "sleet",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2381,
+          "word": "variable",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2385,
+          "word": "syntax",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2393,
+          "word": "sovereignty",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2398,
+          "word": "sovereign",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2402,
+          "word": "spore",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2406,
+          "word": "symbiosis",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2423,
+          "word": "subplot",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2425,
+          "word": "trilogy",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2431,
+          "word": "tectonic",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2440,
+          "word": "stalactite",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2441,
+          "word": "veterinarian",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2445,
+          "word": "surgeon",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2446,
+          "word": "zoologist",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2466,
+          "word": "triple jump",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2484,
+          "word": "telecast",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2485,
+          "word": "subscriber",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2499,
+          "word": "transistor",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2503,
+          "word": "sultan",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2509,
+          "word": "viking",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2518,
+          "word": "sustainability",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2519,
+          "word": "stewardship",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2523,
+          "word": "treble",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2526,
+          "word": "staccato",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2531,
+          "word": "sprinkler",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2536,
+          "word": "yield",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2541,
+          "word": "synthesize",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2548,
+          "word": "speculate",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2562,
+          "word": "stingray",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2567,
+          "word": "urchin",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2575,
+          "word": "soluble",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2579,
+          "word": "titration",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2581,
+          "word": "testimony",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2582,
+          "word": "subpoena",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2589,
+          "word": "statute",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2594,
+          "word": "trajectory",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2595,
+          "word": "weightless",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2596,
+          "word": "spacewalk",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2604,
+          "word": "thresh",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2607,
+          "word": "topsoil",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2613,
+          "word": "skylight",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2614,
+          "word": "truss",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2621,
+          "word": "titan",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2635,
+          "word": "ton",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2668,
+          "word": "spoofing",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2679,
+          "word": "suture",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2680,
+          "word": "sterilize",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2682,
+          "word": "torque",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2687,
+          "word": "sprocket",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2692,
+          "word": "tropics",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2698,
+          "word": "urbanization",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2699,
+          "word": "suburban",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2708,
+          "word": "subordinate",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2714,
+          "word": "tariff",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2716,
+          "word": "subsidy",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2732,
+          "word": "stippling",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2737,
+          "word": "tempera",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2745,
+          "word": "validity",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2751,
+          "word": "one-hundred-seventeen",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2752,
+          "word": "one-hundred-eighteen",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2753,
+          "word": "one-hundred-nineteen",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2754,
+          "word": "one-hundred-twenty",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2755,
+          "word": "one-hundred-twenty-one",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2756,
+          "word": "one-hundred-twenty-two",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2757,
+          "word": "one-hundred-twenty-three",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2758,
+          "word": "one-hundred-twenty-four",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2759,
+          "word": "one-hundred-twenty-five",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2760,
+          "word": "one-hundred-twenty-six",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2761,
+          "word": "sequestration",
+          "status": 0,
+          "error": "The operation was aborted due to timeout"
+        },
+        {
+          "id": 2762,
+          "word": "albedo",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2763,
+          "word": "mitigation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2764,
+          "word": "anthropogenic",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2765,
+          "word": "decarbonization",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2766,
+          "word": "aerosol",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2767,
+          "word": "radiative",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2768,
+          "word": "emission",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2769,
+          "word": "carbon-neutral",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2770,
+          "word": "footprint",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2771,
+          "word": "servomotor",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2772,
+          "word": "actuator",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2773,
+          "word": "kinematics",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2774,
+          "word": "pneumatic",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2775,
+          "word": "hydraulic",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2776,
+          "word": "gyroscope",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2777,
+          "word": "accelerometer",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2778,
+          "word": "encoder",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2779,
+          "word": "teleoperation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2780,
+          "word": "mechatronics",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2781,
+          "word": "conscientious",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2782,
+          "word": "impartiality",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2783,
+          "word": "civility",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2784,
+          "word": "altruism",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2785,
+          "word": "reciprocity",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2786,
+          "word": "prudence",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2788,
+          "word": "magnanimity",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2789,
+          "word": "equanimity",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2790,
+          "word": "beneficence",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2791,
+          "word": "quartile",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2792,
+          "word": "variance",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2793,
+          "word": "outlier",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2794,
+          "word": "permutation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2795,
+          "word": "factorial",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2796,
+          "word": "tessellation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2797,
+          "word": "skewness",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2798,
+          "word": "interquartile",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2799,
+          "word": "deviation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2800,
+          "word": "distribution",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2801,
+          "word": "cuneiform",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2802,
+          "word": "mesopotamia",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2803,
+          "word": "sumerian",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2804,
+          "word": "aztec",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2805,
+          "word": "incan",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2806,
+          "word": "mayan",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2807,
+          "word": "acropolis",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2808,
+          "word": "colosseum",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2809,
+          "word": "gladiator",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2810,
+          "word": "aqueduct",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2811,
+          "word": "cotton",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2812,
+          "word": "linen",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2813,
+          "word": "polyester",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2814,
+          "word": "denim",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2815,
+          "word": "spandex",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2816,
+          "word": "weave",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2817,
+          "word": "loom",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2818,
+          "word": "textile",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2819,
+          "word": "felt",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2820,
+          "word": "burlap",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2821,
+          "word": "soliloquy",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2822,
+          "word": "monologue",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2823,
+          "word": "stagecraft",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2824,
+          "word": "backdrop",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2825,
+          "word": "improv",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2826,
+          "word": "mime",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2827,
+          "word": "puppetry",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2828,
+          "word": "proscenium",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2829,
+          "word": "matinee",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2830,
+          "word": "blocking",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2831,
+          "word": "pathogen",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2832,
+          "word": "epidemiology",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2833,
+          "word": "disinfectant",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2834,
+          "word": "incubation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2835,
+          "word": "contagion",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2836,
+          "word": "antiseptic",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2837,
+          "word": "asymptomatic",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2838,
+          "word": "sanitation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2839,
+          "word": "microbiology",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2840,
+          "word": "quarantine",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2841,
+          "word": "tributary",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2842,
+          "word": "confluence",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2843,
+          "word": "meander",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2844,
+          "word": "porous",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2846,
+          "word": "hydrology",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2847,
+          "word": "alluvial",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2848,
+          "word": "riparian",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2849,
+          "word": "subsurface",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2850,
+          "word": "springwater",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2851,
+          "word": "one-hundred-twenty-seven",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2852,
+          "word": "one-hundred-twenty-eight",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2853,
+          "word": "one-hundred-twenty-nine",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2854,
+          "word": "one-hundred-thirty",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2855,
+          "word": "one-hundred-thirty-one",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2856,
+          "word": "one-hundred-thirty-two",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2857,
+          "word": "one-hundred-thirty-three",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2858,
+          "word": "one-hundred-thirty-four",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2859,
+          "word": "one-hundred-thirty-five",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2860,
+          "word": "one-hundred-thirty-six",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2861,
+          "word": "redshift",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2862,
+          "word": "parallax",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2863,
+          "word": "spectroscopy",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2864,
+          "word": "magnetosphere",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2865,
+          "word": "ionosphere",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2866,
+          "word": "exoplanet",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2867,
+          "word": "cosmology",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2868,
+          "word": "zenith",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2869,
+          "word": "apogee",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2870,
+          "word": "perigee",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2871,
+          "word": "chromatography",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2872,
+          "word": "molarity",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2873,
+          "word": "valence",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2874,
+          "word": "oxidation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2875,
+          "word": "reduction",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2876,
+          "word": "electrolyte",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2877,
+          "word": "anion",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2878,
+          "word": "cation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2879,
+          "word": "stoichiometry",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2880,
+          "word": "polyatomic",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2881,
+          "word": "fortissimo",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2882,
+          "word": "crescendo",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2883,
+          "word": "diminuendo",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2884,
+          "word": "syncopation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2885,
+          "word": "legato",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2886,
+          "word": "arpeggio",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2887,
+          "word": "sonata",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2888,
+          "word": "minuet",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2889,
+          "word": "fugue",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2890,
+          "word": "timbre",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2891,
+          "word": "affidavit",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2892,
+          "word": "deposition",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2893,
+          "word": "jurisdiction",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2894,
+          "word": "appellate",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2895,
+          "word": "liability",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2896,
+          "word": "negligence",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2897,
+          "word": "bailiff",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2898,
+          "word": "probation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2899,
+          "word": "parole",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2900,
+          "word": "restitution",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2901,
+          "word": "marinade",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2902,
+          "word": "brine",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2903,
+          "word": "caramelization",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2904,
+          "word": "sourdough",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2905,
+          "word": "knead",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2906,
+          "word": "emulsify",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2907,
+          "word": "simmer",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2908,
+          "word": "blanch",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2909,
+          "word": "julienne",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2910,
+          "word": "zest",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2911,
+          "word": "aperture",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2913,
+          "word": "exposure",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2914,
+          "word": "bokeh",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2915,
+          "word": "viewfinder",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2916,
+          "word": "tripod",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2917,
+          "word": "sepia",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2918,
+          "word": "overexposure",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2919,
+          "word": "underexposure",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2920,
+          "word": "composition",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2921,
+          "word": "grafting",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2922,
+          "word": "pruning",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2923,
+          "word": "pollination",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2924,
+          "word": "transpiration",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2925,
+          "word": "xylem",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2926,
+          "word": "phloem",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2927,
+          "word": "stomata",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2928,
+          "word": "taproot",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2929,
+          "word": "rhizome",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2930,
+          "word": "annual",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2931,
+          "word": "fuselage",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2932,
+          "word": "rudder",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2933,
+          "word": "aileron",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2934,
+          "word": "propeller",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2935,
+          "word": "cockpit",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2936,
+          "word": "turbulence",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2937,
+          "word": "hangar",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2938,
+          "word": "nosecone",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2939,
+          "word": "altimeter",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2940,
+          "word": "yaw",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2941,
+          "word": "etymology",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2942,
+          "word": "morpheme",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2943,
+          "word": "phoneme",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2944,
+          "word": "homophone",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2945,
+          "word": "acronym",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2946,
+          "word": "connotation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2947,
+          "word": "denotation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2948,
+          "word": "portmanteau",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2949,
+          "word": "colloquial",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2950,
+          "word": "semantics",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2951,
+          "word": "one-hundred-thirty-seven",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2952,
+          "word": "one-hundred-thirty-eight",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2953,
+          "word": "one-hundred-thirty-nine",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2954,
+          "word": "one-hundred-forty",
+          "status": 0,
+          "error": "The operation was aborted due to timeout"
+        },
+        {
+          "id": 2955,
+          "word": "one-hundred-forty-one",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2956,
+          "word": "one-hundred-forty-two",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2957,
+          "word": "one-hundred-forty-three",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2958,
+          "word": "one-hundred-forty-four",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2959,
+          "word": "one-hundred-forty-five",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2960,
+          "word": "one-hundred-forty-six",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2961,
+          "word": "stratigraphy",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2962,
+          "word": "petroglyph",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2963,
+          "word": "amphitheater",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2964,
+          "word": "trowel",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2965,
+          "word": "megalith",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2966,
+          "word": "necropolis",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2967,
+          "word": "typology",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2968,
+          "word": "sherd",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2969,
+          "word": "provenance",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2970,
+          "word": "radiocarbon",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2971,
+          "word": "phytoplankton",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2972,
+          "word": "zooplankton",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2973,
+          "word": "salinity",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2974,
+          "word": "thermocline",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2975,
+          "word": "undertow",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2976,
+          "word": "seamount",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2977,
+          "word": "sonar",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2978,
+          "word": "hydrothermal",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2979,
+          "word": "upwelling",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2980,
+          "word": "gyre",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2981,
+          "word": "cantilever",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2982,
+          "word": "keystone",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2983,
+          "word": "vault",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2984,
+          "word": "clerestory",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2985,
+          "word": "balustrade",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2986,
+          "word": "cupola",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2987,
+          "word": "mullion",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2988,
+          "word": "fenestration",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2989,
+          "word": "corbel",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2990,
+          "word": "entablature",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2991,
+          "word": "slalom",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2992,
+          "word": "equestrian",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2994,
+          "word": "parkour",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2995,
+          "word": "luge",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2996,
+          "word": "regatta",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2997,
+          "word": "waterpolo",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2998,
+          "word": "synchronized",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 2999,
+          "word": "shot-put",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3000,
+          "word": "pole-vault",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3001,
+          "word": "metacognition",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3002,
+          "word": "mnemonic",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3003,
+          "word": "cognition",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3004,
+          "word": "stimulus",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3005,
+          "word": "reflex",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3006,
+          "word": "perception",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3007,
+          "word": "intuition",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3008,
+          "word": "heuristic",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3009,
+          "word": "schema",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3010,
+          "word": "retention",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3011,
+          "word": "inductor",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3012,
+          "word": "solenoid",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3013,
+          "word": "transformer",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3014,
+          "word": "photovoltaic",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3015,
+          "word": "wattage",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3016,
+          "word": "kilowatt",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3017,
+          "word": "ohm",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3018,
+          "word": "diode",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3019,
+          "word": "rectifier",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3020,
+          "word": "oscilloscope",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3021,
+          "word": "escarpment",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3022,
+          "word": "atoll",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3023,
+          "word": "steppe",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3024,
+          "word": "taiga",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3025,
+          "word": "chaparral",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3026,
+          "word": "pampas",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3027,
+          "word": "karst",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3028,
+          "word": "badlands",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3029,
+          "word": "moorland",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3030,
+          "word": "cordillera",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3031,
+          "word": "thesis",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3032,
+          "word": "abstract",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3033,
+          "word": "prologue",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3034,
+          "word": "epilogue",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3035,
+          "word": "preface",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3036,
+          "word": "synthesis",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3037,
+          "word": "transcript",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3038,
+          "word": "manuscript",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3039,
+          "word": "rubric",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3040,
+          "word": "revision",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3041,
+          "word": "milestone",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3042,
+          "word": "culmination",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3043,
+          "word": "proficiency",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3044,
+          "word": "valedictorian",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3045,
+          "word": "salutatorian",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3046,
+          "word": "commencement",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3047,
+          "word": "diploma",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3048,
+          "word": "accreditation",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3049,
+          "word": "capstone",
+          "status": 500,
+          "error": null
+        },
+        {
+          "id": 3050,
+          "word": "matriculation",
+          "status": 500,
+          "error": null
+        }
+      ]
+    }
+  ]
+}

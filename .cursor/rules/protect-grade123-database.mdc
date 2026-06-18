@@ -1,0 +1,62 @@
+---
+description: Never modify the six frozen curriculum lessons without explicit user confirmation (Arabic yes/no)
+alwaysApply: true
+---
+
+# Protect curriculum database (grade 1–5 + Miscellaneous Words)
+
+These six lessons are **frozen by default** — no writes without explicit user approval:
+
+- **`grade 1`** (300 cards)
+- **`grade 2`** (600 cards)
+- **`grade 3`** (800 cards)
+- **`grade 4`** (1000 cards)
+- **`grade 5`** (1500 cards)
+- **`Miscellaneous Words`** (195 cards)
+
+## Never without explicit user approval
+
+Do **not** read/write PGlite data for any of the six when it would:
+
+- Reseed or sync cards
+- Apply or bulk-restore images
+- Change example sentences or translations
+- Rebuild Miscellaneous Words (`create-miscellaneous-words-lesson.mjs`)
+- Run `pnpm db:restore-all` steps for these lessons without skip/confirm
+
+**Do not** run `db:reset` if it would destroy these lessons without explicit user approval.
+
+**Always stop `pnpm dev`** before maintenance scripts (`scripts/lib/db-safety.mjs`).
+
+## When the user asks to change any frozen lesson
+
+Stop and show this warning **in Arabic**, then wait for **نعم** or **لا**:
+
+> ⚠️ **تحذير:** طلبك يعدّل قاعدة بيانات أحد دروس المنهج المحمية (**grade 1 / grade 2 / grade 3 / grade 4 / grade 5 / Miscellaneous Words**).
+> **هل تريد المتابعة؟** (نعم / لا)
+
+- **لا** → do not touch their DB.
+- **نعم** → `GRADE123_DB_WRITE_CONFIRMED=1` or `CURRICULUM_DB_WRITE_CONFIRMED=1` then run scripts.
+
+## Safe without confirmation
+
+- Read-only: `audit-curriculum-lessons.mjs`, `show-misc-card.mjs`, `show-grade*-card.mjs`, `snapshot-curriculum-lessons.mjs`, `audit-grade5-images.mjs`
+- Daniel and Miscellaneous Words Part 1 (hidden source lessons)
+- Adding **new** lessons/images that do not touch the six frozen lessons
+
+## After user says نعم
+
+```powershell
+$env:GRADE123_DB_WRITE_CONFIRMED="1"; node scripts/apply-grade5-word.mjs hypotenuse
+```
+
+Remove the env var after the operation.
+
+## Verify integrity (read-only)
+
+```powershell
+node scripts/audit-curriculum-lessons.mjs
+node scripts/snapshot-curriculum-lessons.mjs
+```
+
+Snapshot is saved to `.data/curriculum-snapshot.json`.

@@ -1,0 +1,67 @@
+# ─── Dependencies ───────────────────────────────────────────────────────────
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+# ─── Build output ─────────────────────────────────────────────────────────────
+dist/
+**/dist/
+.vite/
+**/.vite/
+*.tsbuildinfo
+web-build/
+.expo/
+
+# ─── Runtime data (sync separately to server — not in Git) ───────────────────
+.data/
+public/
+
+# ─── Secrets & local env ──────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+.env.mobile
+DATABASE_URL
+
+# ─── Logs & debug ─────────────────────────────────────────────────────────────
+*.log
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.metro-health-check*
+
+# ─── OS & editor noise ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ─── Cursor local cache (rules/skills under .cursor/ are kept) ───────────────
+.cursor/projects/
+
+# ─── Accidental duplicate copies (WinSCP / manual copy) ──────────────────────
+* (1)/
+* (2)/
+attached_assets*/
+smart-flashcards-download*/
+
+# ─── Mobile signing keys (never commit) ──────────────────────────────────────
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# ─── Test & coverage ─────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ─── Misc temp ─────────────────────────────────────────────────────────────────
+*.tmp
+*.temp
+.cache/

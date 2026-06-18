@@ -1,0 +1,80 @@
+/**
+ * Apply grade1_<word>.png assets to grade 1 lesson (640×640 cream canvas).
+ * Usage: node scripts/apply-grade1-batch.mjs batch1
+ */
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+import { createRequire } from "node:module";
+import { BATCH_PROMPTS } from "./grade1-batch-prompts.mjs";
+import { assetPath, makeSquare, LESSON_TITLE } from "./lib/grade1-image-style.mjs";
+import { assertServerNotRunning } from "./lib/db-safety.mjs";
+import { assertGrade123WriteAllowed } from "./lib/protect-grade123.mjs";
+import { GRADE1_CARDS } from "./seed-data/grade1-cards.mjs";
+
+const rootDir = join(dirname(fileURLToPath(import.meta.url)), "..");
+const require = createRequire(join(rootDir, "lib/db/package.json"));
+
+function loadEnvFile(filePath) {
+  if (!existsSync(filePath)) return;
+  for (const line of readFileSync(filePath, "utf8").split(/\r?\n/)) {
+    const m = line.match(/^\s*([^#=]+?)\s*=\s*(.*)\s*$/);
+    if (!m) continue;
+    process.env[m[1].trim()] = m[2].trim();
+  }
+}
+
+const batchArg = process.argv.find((a) => a.startsWith("batch"));
+if (!batchArg || !BATCH_PROMPTS[batchArg]) {
+  console.error("Usage: node scripts/apply-grade1-batch.mjs batch1|...|batch30");
+  process.exit(1);
+}
+
+const words = Object.keys(BATCH_PROMPTS[batchArg]);
+
+loadEnvFile(join(rootDir, ".env"));
+assertServerNotRunning();
+assertGrade123WriteAllowed("apply-grade1-batch");
+
+const { PGlite } = require("@electric-sql/pglite");
+const client = new PGlite(join(rootDir, ".data", "flashcards"));
+
+const lessonRes = await client.query(`SELECT id FROM lessons WHERE title = $1 LIMIT 1`, [LESSON_TITLE]);
+if (lessonRes.rows.length === 0) {
+  console.error(`Lesson "${LESSON_TITLE}" not found. Run: node scripts/seed-grade1-lesson.mjs`);
+  process.exit(1);
+}
+const lessonId = lessonRes.rows[0].id;
+
+let ok = 0;
+let miss = 0;
+for (const word of words) {
+  const src = assetPath(word);
+  if (!existsSync(src)) {
+    console.error(`Missing asset: ${src}`);
+    miss++;
+    continue;
+  }
+  const buf = await makeSquare(src);
+  const dataUrl = `data:image/png;base64,${buf.toString("base64")}`;
+  const res = await client.query(
+    `UPDATE words SET image_url = $1
+     WHERE lesson_id = $2 AND LOWER(TRIM(word)) = LOWER(TRIM($3))
+     RETURNING id, word`,
+    [dataUrl, lessonId, word],
+  );
+  if (res.rows.length === 0) {
+    console.error(`Word not in DB: "${word}"`);
+    miss++;
+  } else {
+    console.log(`Updated id=${res.rows[0].id} "${res.rows[0].word}"`);
+    ok++;
+  }
+}
+
+const count = await client.query(
+  `SELECT COUNT(*)::int AS n FROM words WHERE lesson_id = $1 AND image_url IS NOT NULL AND image_url != ''`,
+  [lessonId],
+);
+await client.close();
+console.log(`\n${batchArg}: ${ok} applied, ${miss} missing/failed. Lesson images total: ${count.rows[0].n}/${GRADE1_CARDS.length}`);
