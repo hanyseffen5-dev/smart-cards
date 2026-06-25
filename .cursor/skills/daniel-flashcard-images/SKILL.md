@@ -55,13 +55,7 @@ Override: `DANIEL_ASSETS_DIR` env var.
 2. Generate each PNG with sentence-aligned prompt
 3. Save as `daniel_<word>.png` in assets
 
-**Option 2 — Pollinations (automated, no Cursor credits)**
-```bash
-# Stop pnpm dev first
-node scripts/generate-daniel-images.mjs batch3          # uses daniel-batch3-prompts.mjs
-node scripts/generate-daniel-images.mjs --force word1 word2
-node scripts/generate-daniel-images.mjs redo-b3         # redo mismatched cards from DB examples
-```
+**Pollinations is disabled** — project policy requires Daniel GenerateImage only (see `.cursor/rules/daniel-generate-image-only.mdc`).
 
 Prompt maps live in:
 - `scripts/daniel-batch3-prompts.mjs`

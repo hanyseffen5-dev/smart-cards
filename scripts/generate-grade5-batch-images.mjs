@@ -9,6 +9,9 @@ import { createHash } from "node:crypto";
 import { ASSETS_DIR, assetPath, buildPrompt } from "./lib/grade5-image-style.mjs";
 import { sceneFromExample } from "./lib/grade5-scene-from-example.mjs";
 import { assertServerNotRunning } from "./lib/db-safety.mjs";
+import { assertDanielGenerateImageOnly } from "./lib/assert-daniel-generate-image-only.mjs";
+
+assertDanielGenerateImageOnly("generate-grade5-batch-images.mjs");
 
 const rootDir = join(dirname(fileURLToPath(import.meta.url)), "..");
 const jsonPath = process.argv[2] || join(rootDir, ".data", "grade5-batch11-words.json");

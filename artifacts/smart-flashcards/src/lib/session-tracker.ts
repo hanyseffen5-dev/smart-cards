@@ -23,34 +23,44 @@ function cairoTime(date: Date = new Date()): string {
 /** Guard — one session-end payload per tab session (reset when startSession runs). */
 let sessionEndSent = false;
 
+function readStudentName(): string {
+  try {
+    const raw = localStorage.getItem("currentStudent");
+    if (raw) return (JSON.parse(raw) as { name?: string })?.name || "";
+  } catch {
+    // ignore malformed cache
+  }
+  return "";
+}
+
+function sendSheetLogin(fp: string, name: string): void {
+  fetch("/api/students/session-start", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ fingerprint: fp, name }),
+    keepalive: true,
+  })
+    .then((r) => {
+      if (r.ok) sessionStorage.setItem("sessionSheetLogged", "1");
+    })
+    .catch(() => {});
+}
+
 /** Call once when student is identified (login or auto-restore). Idempotent. */
 export function startSession(): void {
-  if (sessionStorage.getItem("sessionStart")) return; // Already started this tab
-  sessionEndSent = false;
-  sessionStorage.setItem("sessionStart", String(Date.now()));
-  sessionStorage.setItem("sessionLoginTime", cairoTime());
-  // Cache fingerprint in session storage for reliable access at unload time
   const fp = localStorage.getItem("deviceFingerprint");
-  if (fp) {
+  if (!fp) return;
+
+  if (!sessionStorage.getItem("sessionStart")) {
+    sessionEndSent = false;
+    sessionStorage.setItem("sessionStart", String(Date.now()));
+    sessionStorage.setItem("sessionLoginTime", cairoTime());
     sessionStorage.setItem("sessionFingerprint", fp);
-    // Read the student's display name straight from local storage so the Google
-    // Sheet row always carries the name the user actually sees in the app — this
-    // doesn't depend on a (possibly stale) database lookup on the server.
-    let name = "";
-    try {
-      const raw = localStorage.getItem("currentStudent");
-      if (raw) name = (JSON.parse(raw) as { name?: string })?.name || "";
-    } catch {
-      // ignore malformed cache
-    }
-    // Log this session to Google Sheets "smart cards" tab (fire-and-forget)
-    fetch("/api/students/session-start", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ fingerprint: fp, name }),
-      keepalive: true,
-    }).catch(() => {});
   }
+
+  // Sheet login is separate from session timing — retry if the first POST failed.
+  if (sessionStorage.getItem("sessionSheetLogged") === "1") return;
+  sendSheetLogin(fp, readStudentName());
 }
 
 /** Read session info for sending on exit. Returns null if session never started. */
@@ -71,6 +81,7 @@ export function clearSession(): void {
   sessionStorage.removeItem("sessionStart");
   sessionStorage.removeItem("sessionLoginTime");
   sessionStorage.removeItem("sessionFingerprint");
+  sessionStorage.removeItem("sessionSheetLogged");
 }
 
 /** Returns true the first time per tab session — prevents duplicate session-end sends. */

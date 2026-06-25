@@ -37,12 +37,9 @@ node scripts/seed-grade1-lesson.mjs              # once: 300 cards
 node scripts/apply-grade1-batch.mjs batch1       # sharp 640×640 cream canvas → DB
 ```
 
-### C) Pollinations only (lower quality, optional)
+### C) Pollinations — disabled
 
-```bash
-node scripts/generate-grade1-images.mjs batch1   # free API — rougher than GenerateImage
-node scripts/apply-grade1-batch.mjs batch1
-```
+Project policy: Daniel GenerateImage only. Do not run `generate-grade1-images.mjs`.
 
 Batches: `batch1` … `batch30` — prompts in `scripts/grade1-batch-prompts.mjs`, card data in `scripts/seed-data/grade1-cards.mjs`.
 

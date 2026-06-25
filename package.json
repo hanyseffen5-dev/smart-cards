@@ -16,6 +16,8 @@
     "db:restore-all": "node ./scripts/restore-all-lessons.mjs",
     "db:snapshot-curriculum": "node ./scripts/snapshot-curriculum-lessons.mjs",
     "db:audit-curriculum": "node ./scripts/audit-curriculum-lessons.mjs",
+    "words:sync": "node ./scripts/export-app-words.mjs",
+    "words:export": "node ./scripts/export-app-words.mjs --full",
     "db:apply-daniel-batch2": "node ./scripts/apply-daniel-batch2.mjs",
     "db:apply-daniel-batch3": "node ./scripts/apply-daniel-batch3.mjs",
     "db:apply-daniel-batch5": "node ./scripts/apply-daniel-batch5.mjs",
@@ -46,7 +48,7 @@
     "migrate:images": "node ./scripts/migrate-images-to-files.mjs",
     "build": "pnpm run typecheck && pnpm -r --if-present run build",
     "build:prod": "pnpm --filter @workspace/api-server run build && pnpm --filter @workspace/smart-flashcards run build",
-    "start:prod": "node --enable-source-maps artifacts/api-server/dist/index.mjs",
+    "start:prod": "node ./scripts/start-prod.mjs",
     "typecheck:libs": "tsc --build",
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
   },

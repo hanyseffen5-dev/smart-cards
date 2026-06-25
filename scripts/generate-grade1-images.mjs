@@ -13,6 +13,9 @@ import { createHash } from "node:crypto";
 import { BATCH_PROMPTS, STYLE } from "./grade1-batch-prompts.mjs";
 import { assetPath, ASSETS_DIR } from "./lib/grade1-image-style.mjs";
 import { assertServerNotRunning } from "./lib/db-safety.mjs";
+import { assertDanielGenerateImageOnly } from "./lib/assert-daniel-generate-image-only.mjs";
+
+assertDanielGenerateImageOnly("generate-grade1-images.mjs");
 
 const rootDir = join(dirname(fileURLToPath(import.meta.url)), "..");
 

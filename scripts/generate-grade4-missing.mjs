@@ -7,6 +7,9 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { ASSETS_DIR } from "./lib/grade4-image-style.mjs";
+import { assertDanielGenerateImageOnly } from "./lib/assert-daniel-generate-image-only.mjs";
+
+assertDanielGenerateImageOnly("generate-grade4-missing.mjs");
 
 const rootDir = join(dirname(fileURLToPath(import.meta.url)), "..");
 const jsonPath = join(dirname(fileURLToPath(import.meta.url)), "grade4-gen-batch81-90.json");

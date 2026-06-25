@@ -17,6 +17,9 @@ import { STYLE_MISC_COMPOSITE } from "./daniel-redo-scene.mjs";
 import { openFlashcardsClient, loadRedoEntries } from "./lib/load-redo-entries.mjs";
 import { cropIllustrationFromBuffer } from "./lib/illustration-crop.mjs";
 import { assertServerNotRunning } from "./lib/db-safety.mjs";
+import { assertDanielGenerateImageOnly } from "./lib/assert-daniel-generate-image-only.mjs";
+
+assertDanielGenerateImageOnly("generate-daniel-images.mjs");
 
 const rootDir = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ASSETS_DIR =

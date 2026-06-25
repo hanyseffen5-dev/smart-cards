@@ -1,0 +1,35 @@
+---
+description: Flashcard images must use Daniel GenerateImage technique only — never Pollinations
+alwaysApply: true
+---
+
+# Daniel GenerateImage only (flashcard images)
+
+## Policy
+
+All flashcard lesson images **must** be created with **Cursor GenerateImage** using the **Daniel technique**:
+
+- Sentence-aligned scene from the card's example sentence
+- Style from `scripts/lib/daniel-image-style.mjs` (`GENERATE_IMAGE_STYLE`, cream `#FCF5E6`, 640×640 after apply)
+- Save to `assets/` with lesson prefix (`grade5_<word>.png`, `daniel_<word>.png`, etc.)
+
+## Never without explicit user override
+
+Do **not** run or recommend Pollinations / remote image API scripts:
+
+- `generate-grade5-compound-all.mjs`
+- `generate-daniel-images.mjs`
+- `generate-grade1-images.mjs`
+- `generate-grade4-batches.mjs`, `generate-grade4-missing.mjs`
+- `generate-grade5-batch-images.mjs`
+
+These exit unless `ALLOW_POLLINATIONS_IMAGE_GEN=1` (user must explicitly request override).
+
+## Workflow
+
+1. Read prompts from batch prompt files or build with `buildPrompt()` + example sentence
+2. **GenerateImage** → save PNG in assets
+3. Stop `pnpm dev`, apply batch script, bump `IMAGE_CACHE_VERSION`, restart dev
+4. User hard-refreshes lesson page (Ctrl+Shift+R)
+
+Skills: `.cursor/skills/daniel-flashcard-images/SKILL.md`, `.cursor/skills/grade1-flashcard-images/SKILL.md`

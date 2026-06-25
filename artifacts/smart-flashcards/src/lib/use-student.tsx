@@ -98,11 +98,20 @@ export function StudentProvider({ children }: { children: ReactNode }) {
           // Update React state whenever the resolved id differs from what's mounted
           // (covers re-registration after a database reset, which yields a new id).
           setStudent((prev) => (prev?.id === s.id ? prev : s));
-          startSession();
         }
       })
       .catch(() => {})
-      .finally(() => setHydrated(true));
+      .finally(async () => {
+        setHydrated(true);
+        // Log to Google Sheets even when the server lookup failed but a cached
+        // session is still valid — previously startSession only ran on lookup success.
+        if (localStorage.getItem("explicitLogout") === "1") return;
+        const cached = readCachedStudent();
+        if (cached) {
+          await getDeviceFingerprint();
+          startSession();
+        }
+      });
   }, []);
 
   const saveStudent = useCallback(async (s: Student | null) => {

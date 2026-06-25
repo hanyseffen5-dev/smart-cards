@@ -61,6 +61,13 @@ smart-flashcards-download*/
 coverage/
 .nyc_output/
 
+# ─── DB transfer archives (sync to server manually — never commit) ───────────
+flashcards-db.tgz
+flashcards-db.zip
+.data.zip
+data.zip
+data-*.zip
+
 # ─── Misc temp ─────────────────────────────────────────────────────────────────
 *.tmp
 *.temp
