@@ -1,0 +1,597 @@
+baloney	هراء	noun	medium
+bandit	قطاع الطرق	noun	medium
+banknote	الأوراق النقدية	noun	medium
+barbell	الحديد	noun	medium
+barbershop	صالون حلاقة	noun	hard
+barnacle	برنقيل	noun	medium
+barnyard	الفناء	noun	medium
+barracks	ثكنات	noun	medium
+barrette	مشبك	noun	medium
+barricade	متراس	noun	hard
+barstool	مقعد للبار	noun	medium
+basketful	سلة	adjective	hard
+bassinet	سرير	noun	medium
+bathrobe	رداء الحمام	noun	medium
+bedbug	بق الفراش	noun	medium
+bedframe	إطار السرير	noun	medium
+bedroll	سرير	noun	medium
+bedsheet	غطاء السرير	noun	medium
+bedtime	وقت النوم	noun	medium
+beekeeper	النحال	verb	hard
+beehive	خلية النحل	adjective	medium
+beeswax	شمع العسل	noun	medium
+beetroot	الشمندر	noun	medium
+bellboy	خادم الفندق	noun	medium
+bellhop	مندوب خدمات	noun	medium
+belltower	برج الجرس	verb	hard
+benchpress	مقاعد البدلاء	noun	hard
+benefactor	فاعل خير	noun	hard
+bento	بينتو	noun	easy
+beret	قبعة	noun	easy
+betta	بيتا	noun	easy
+biker	راكب الدراجة النارية	verb	easy
+bikini	بيكيني	noun	medium
+billboard	لوحة إعلانية	noun	hard
+birdbath	حمام الطيور	noun	medium
+birdcage	قفص العصافير	noun	medium
+birdhouse	بيت الطيور	noun	hard
+bisque	حساء دسم	noun	medium
+bistro	حانة صغيرة	noun	medium
+blackbird	شحرور	noun	hard
+blackboard	سبورة	noun	hard
+blacksmith	حداد	noun	hard
+bladder	المثانة	verb	medium
+blastoff	انفجار	noun	medium
+blimp	شخص ساذج	noun	easy
+bloodhound	الكلب البوليسي	noun	hard
+bloomers	البنطلونات	noun	medium
+blusher	أحمر الخدود	verb	medium
+bobcat	البوبكات	noun	medium
+bodyguard	حارس شخصي	noun	hard
+bogeyman	بعبع	noun	medium
+boiler	غلاية	verb	medium
+bookend	غلاف الكتاب	noun	medium
+bookmark	إشارة مرجعية	noun	medium
+bookshop	مكتبة	noun	medium
+bookworm	دودة الكتب	noun	medium
+boombox	com.boombox	noun	medium
+bootcamp	المعسكر التدريبي	noun	medium
+borderline	خط الحدود	noun	hard
+borough	البلدة	noun	medium
+botany	علم النبات	noun	medium
+boutique	بوتيك	noun	medium
+bowtie	ربطة القوس	noun	medium
+boxcar	عربة النقل	noun	medium
+boxers	الملاكمين	noun	medium
+brainwash	غسل الدماغ	noun	hard
+bratwurst	نقانق	noun	hard
+breadbox	صندوق الخبز	noun	medium
+breadfruit	فاكهة الخبز	noun	hard
+breathalyzer	جهاز قياس الكحول	verb	hard
+bricklayer	البناء	verb	hard
+bridesmaid	وصيفة الشرف	noun	hard
+briefcase	حقيبة	noun	hard
+brimstone	كبريت	noun	hard
+broadcaster	مذيع	verb	hard
+brooch	بروش	noun	medium
+broomstick	عصا المكنسة	noun	hard
+brownie	كعكة براوني	noun	medium
+brunch	وجبة فطور وغداء	noun	medium
+bubblegum	الزاهي	noun	hard
+buckboard	اللوح	noun	hard
+buckle	مشبك	noun	medium
+budgie	الببغاء	noun	medium
+bulldog	بلدغ	noun	medium
+bulldozer	جرافة	verb	hard
+bunny	أرنب	noun	easy
+burrito	بوريتو	noun	medium
+busboy	نادل	noun	medium
+busdriver	سائق الحافلة	verb	hard
+bushel	بوشل	noun	medium
+bushwalk	ممر الأدغال	noun	medium
+busload	حمولة الحافلة	noun	medium
+buspass	com.buspass	noun	medium
+busstop	com.busstop	noun	medium
+cabdriver	سائق سيارة الأجرة	verb	hard
+caboose	كابوس	noun	medium
+caddy	العلبة	noun	easy
+cairn	ركام من حجارة	noun	easy
+calzone	كالزوني	noun	medium
+camcorder	كاميرا الفيديو	verb	hard
+campfire	نار المعسكر	noun	medium
+campground	مخيم	noun	hard
+campsite	موقع المخيم	noun	medium
+canister	علبة	verb	medium
+cantaloupe	الشمام	noun	hard
+carpool	مرافقي السيارات	noun	medium
+carport	مرآب	noun	medium
+cartwheel	عجلة العربة	noun	hard
+catwalk	المنصة	noun	medium
+cayenne	حريف	noun	medium
+cellmate	زميل الخلية	verb	medium
+cellphone	الهاتف الخلوي	noun	hard
+champ	بطل	noun	easy
+changeroom	غرفة التغيير	noun	hard
+chaplain	قسيس	noun	medium
+charbroil	شاربرويل	noun	hard
+chariot	عربة	noun	medium
+checkout	الدفع	noun	medium
+checkpoint	نقطة تفتيش	noun	hard
+cheerleader	المشجع	verb	hard
+cheesecake	كعكة الجبن	noun	hard
+chessboard	رقعة الشطرنج	noun	hard
+chickpea	حمص	noun	medium
+childcare	رعاية الأطفال	noun	hard
+chimenea	شيمينيا	noun	medium
+chimpanzee	الشمبانزي	noun	hard
+chit	شيت	noun	easy
+chatroom	غرف الدردشة	noun	medium
+chopper	ساطور	verb	medium
+chowder	حساء الشودر	verb	medium
+cityscape	سيتي سكيب	noun	hard
+clamshell	صدفي	noun	hard
+claymore	كلايمور	noun	medium
+cleanup	تنظيف	noun	medium
+clothesline	حبل الغسيل	noun	hard
+clubhouse	النادي	noun	hard
+cloverleaf	ورقة البرسيم	noun	hard
+coastguard	خفر السواحل	noun	hard
+cobblestone	حصوه	noun	hard
+cockatoo	كوكاتو	noun	medium
+codfish	سمك القد	adjective	medium
+coleslaw	كولسلو	noun	medium
+coliseum	المدرج	noun	medium
+cologne	كولونيا	noun	medium
+colorblind	عمى الألوان	noun	hard
+comeback	عد	noun	medium
+comicbook	الكتاب الهزلي	noun	hard
+compactor	الضاغطة	noun	hard
+confetti	حلويات	noun	medium
+congressman	عضو الكونجرس	noun	hard
+cookout	الطبخ بالخارج	noun	medium
+cookbook	كتاب الطبخ	noun	medium
+copycat	مقلد	noun	medium
+cornmeal	دقيق الذرة	adjective	medium
+cornstalk	ساق الذرة	noun	hard
+cornbread	خبز الذرة	noun	hard
+corsage	الصدار	noun	medium
+corset	مشد	noun	medium
+countryman	مواطن	noun	hard
+cowbell	جرس البقرة	noun	medium
+cowboy	رعاة البقر	noun	medium
+cowgirl	راعية البقر	noun	medium
+crayfish	جراد البحر	adjective	medium
+creamery	كريميري	noun	medium
+crepe	كريب	noun	easy
+crescent	الهلال	noun	medium
+crossbow	القوس والنشاب	noun	medium
+crossroad	مفترق طرق	noun	hard
+crowbar	المخل	noun	medium
+cubicle	حجرة	noun	medium
+cupcake	كب كيك	noun	medium
+curbside	الرصيف	noun	medium
+curfew	حظر التجول	noun	medium
+cutlery	أدوات المائدة	noun	medium
+cutout	انقطاع	noun	medium
+cuttlefish	الحبار	adjective	hard
+cymbal	الصنج أداة موسيقية	adjective	medium
+daffodil	النرجس البري	noun	medium
+dairymaid	خادمة الألبان	noun	hard
+dandelion	الهندباء	noun	hard
+dartboard	دارتبوارد	noun	hard
+daydream	أحلام اليقظة	noun	medium
+deadbolt	ديدبولت	noun	medium
+deckchair	كرسي الاستلقاء	noun	hard
+deepfreeze	تجميد عميق	noun	hard
+deerhound	com.deerhound	noun	hard
+defrost	تذويب	noun	medium
+deli	أطعمة لذيذة	noun	easy
+deliverer	مرسل	verb	hard
+demolition	هدم	noun	hard
+depot	مستودع	noun	easy
+derby	ديربي	noun	easy
+deskjob	وظيفة مكتبية	noun	medium
+dessertspoon	ملعقة حلوى	noun	hard
+detour	التفاف	noun	medium
+dewdrop	قطرة الندى	noun	medium
+dialtone	نغمة الاتصال	noun	medium
+dicebox	com.dicebox	noun	medium
+dietician	اختصاصي تغذية	noun	hard
+dimmer	باهتة	verb	medium
+dinette	حجرة طعام صغيرة	noun	medium
+dinghy	زورق	noun	medium
+dinosaur	ديناصور	noun	medium
+dirtbike	com.dirtbike	noun	medium
+dishware	أطباق	noun	medium
+dishrag	خرقة الصحون	noun	medium
+dishsoap	صابون الأطباق	noun	medium
+dishtowel	منشفة الأطباق	noun	hard
+dispatch	إرسال	noun	medium
+dockyard	حوض بناء السفن	noun	medium
+dollhouse	دمية	noun	hard
+dominoes	الدومينو	noun	medium
+doorbell	جرس الباب	noun	medium
+doorframe	إطار الباب	noun	hard
+doorknob	مقبض الباب	noun	medium
+doorstep	عتبة الباب	noun	medium
+doorstop	حاجز الباب	noun	medium
+doughboy	جندي من المشاة	noun	medium
+downpour	هطول الامطار	noun	medium
+dragrace	دراجريس	noun	medium
+dressmaker	خياطة	verb	hard
+dressup	تلبيس	noun	medium
+driftwood	الاخشاب الطافية	noun	hard
+drillbit	مثقاب	noun	medium
+drugstore	صيدلية	noun	hard
+drumbeat	قرع الطبول	noun	medium
+drumstick	مضرب	noun	hard
+dustbin	صندوق القمامة	noun	medium
+earache	وجع الأذن	noun	medium
+earbud	ياربود	noun	medium
+earphone	سماعة	noun	medium
+earplug	سدادة الأذن	noun	medium
+eardrum	طبلة الأذن	noun	medium
+earthworm	دودة الأرض	noun	hard
+eastbound	شرقا	noun	hard
+eavesdrop	التنصت	noun	hard
+eggbeater	مضرب البيض	verb	hard
+eggnog	شراب البيض	noun	medium
+eggshell	قشر البيض	noun	medium
+eightball	ثمانية كرات	noun	hard
+elbowpad	لوحة الكوع	noun	medium
+elk	الأيائل	noun	easy
+elkhorn	إلكورن	noun	medium
+embankment	السد	noun	hard
+ember	جمرة	verb	easy
+emptiness	الفراغ	noun	hard
+enamel	المينا	noun	medium
+encampment	المعسكر	noun	hard
+enchilada	الانتشلادا	noun	hard
+englishman	إنجليزي	noun	hard
+entree	دخول	noun	medium
+espresso	إسبرسو	noun	medium
+eyeglass	نظارات	noun	medium
+eyepatch	رقعة العين	noun	medium
+fairground	أرض المعارض	noun	hard
+fairway	الممر السالك	noun	medium
+falconer	صقار	verb	medium
+farmyard	ساحة المزرعة	noun	medium
+fastball	كرة سريعة	noun	medium
+fastfood	وجبات سريعة	noun	medium
+fatherland	الوطن	noun	hard
+featherbed	سرير ريش	adjective	hard
+feedbag	حقيبة التغذية	noun	medium
+fencer	مبارز	verb	medium
+fernfield	فيرنفيلد	noun	hard
+ferryboat	معدية	noun	hard
+fieldhouse	منزل ميداني	noun	hard
+fieldtrip	رحلة ميدانية	noun	hard
+figment	الشكل	noun	medium
+filmstrip	شريط سينمائي	noun	hard
+fingerboard	الأصابع	noun	hard
+firecracker	مفرقعة نارية	verb	hard
+firehouse	محطة الإطفاء	noun	hard
+fireman	رجل إطفاء	noun	medium
+firepit	حفرة النار	noun	medium
+fireplug	com.fireplug	noun	medium
+firetruck	عربة إطفاء	noun	hard
+fishhook	شص	noun	medium
+fishnet	شبكة صيد السمك	noun	medium
+fishtail	ذيل السمكة	noun	medium
+flamenco	الفلامنكو	noun	medium
+flapper	إمرأة شابة	verb	medium
+flashbulb	مصباح يدوي	noun	hard
+flatbed	مسطحة	adjective	medium
+flatiron	المكواة	noun	medium
+flatware	أدوات المائدة	noun	medium
+flaxseed	بذور الكتان	adjective	medium
+fleabag	كيس من البراغيث	noun	medium
+floodgate	بوابة الفيضان	verb	hard
+floodlight	مصباح	noun	hard
+floorboard	لوح الأرضية	noun	hard
+florist	بائع الزهور	noun	medium
+flowerbed	مشتل أزهار	adjective	hard
+flowerpot	زهور	noun	hard
+flycatcher	صائد الذباب	verb	hard
+flypaper	صائدة الذباب	verb	medium
+flyswatter	مضرب الذباب	verb	hard
+foghorn	قرن الضباب	noun	medium
+folktale	الحكاية الشعبية	noun	medium
+foodcourt	com.foodcourt	noun	hard
+foodstuff	مواد غذائية	noun	hard
+footbridge	جسر المشاة	noun	hard
+footpath	ممر المشاة	noun	medium
+footrest	مسند للقدمين	noun	medium
+footstep	وقع أقدام	noun	medium
+footstool	مسند القدمين	noun	hard
+footwork	حركة القدمين	noun	medium
+foreman	رئيس العمال	noun	medium
+forestland	الغابات	noun	hard
+forklift	رافعة شوكية	noun	medium
+formica	فورميكا	noun	medium
+fortuneteller	قارئ البخت	verb	hard
+foxglove	قفاز الثعلب	noun	medium
+foxhole	حفرة	noun	medium
+framehouse	com.framehouse	noun	hard
+freckle	نمش	noun	medium
+freehand	مرفوعة	noun	medium
+freestyle	حرة	noun	hard
+freetime	وقت فراغ	noun	medium
+freewheel	عجلة حرة	noun	hard
+freshbread	خبز طازج	noun	hard
+friar	الراهب	noun	easy
+frisbee	الفريسبي	noun	medium
+frogman	الضفدع البشري	noun	medium
+frostbite	قضمة الصقيع	noun	hard
+fruitcake	كعكة الفاكهة	noun	hard
+fruitcup	com.fruitcup	noun	medium
+fruitfly	ذبابة الفاكهة	adverb	medium
+fruitloop	com.fruitloop	noun	hard
+fruitstand	com.fruitstand	noun	hard
+frybread	خبز مقلي	noun	medium
+fullback	ظهير	noun	medium
+funnelcake	com.funnelcake	noun	hard
+furrow	ثلم	noun	medium
+gadgetry	الأدوات	noun	medium
+gamekeeper	حارس اللعبة	verb	hard
+gangplank	اللوح الخشبي	noun	hard
+gargoyle	مرغول	noun	medium
+garland	إكليل	noun	medium
+garlicbread	خبز الثوم	noun	hard
+gaslight	ضوء الغاز	noun	medium
+gasmask	قناع غاز	noun	medium
+gaspump	com.gaspump	noun	medium
+gatehouse	بوابة الحراسة	noun	hard
+gatekeeper	حارس البوابة	verb	hard
+gatherer	جامع	verb	medium
+gearshift	ذراع نقل السرعات	noun	hard
+gearwheel	عجلة مسننة	noun	hard
+ghosttown	مدينة الأشباح	noun	hard
+giftwrap	التفاف الهدايا	noun	medium
+gingerbread	خبز الزنجبيل	noun	hard
+gingham	القماش القطني	noun	medium
+girder	العارضة	verb	medium
+giveaway	يتبرع	noun	medium
+glassware	الأواني الزجاجية	noun	hard
+globetrotter	رحالة	verb	hard
+glowstick	توهج	noun	hard
+goalpost	هدف	noun	medium
+goatfish	سمك الماعز	adjective	medium
+goatherd	راعي الماعز	noun	medium
+goldmine	منجم ذهب	noun	medium
+goldsmith	صائغ	noun	hard
+gondola	جندول	noun	medium
+goodnight	طاب مساؤك	noun	hard
+gooseberry	عنب الثعلب	noun	hard
+gopher	غوفر	verb	medium
+goulash	غولاش	noun	medium
+grainfield	حقل الحبوب	noun	hard
+granddad	جد	noun	medium
+grandkid	حفيد	noun	medium
+grandmom	جدة	noun	medium
+grapevine	شجرة العنب	noun	hard
+grassland	المراعي	noun	hard
+grassroot	قاعدة شعبية	noun	hard
+gravedigger	حفار القبور	verb	hard
+gravestone	شاهد القبر	noun	hard
+graveyard	مقبرة	noun	hard
+gravyboat	المرققة	noun	hard
+greenbean	فاصوليا خضراء	noun	hard
+greengrocer	بائع خضار	verb	hard
+greyhound	السلوقي كلب الصيد	noun	hard
+griddle	صينية	noun	medium
+grillroom	غرفة الشواء	noun	hard
+grinch	غرينش	noun	medium
+grunion	جرونيون	noun	medium
+guarddog	كلب الحراسة	noun	medium
+guardrail	الدرابزين	noun	hard
+guesthouse	منزل الضيف	noun	hard
+guestroom	غرفة الضيوف	noun	hard
+guidebook	دليل	noun	hard
+guidepost	دليل	noun	hard
+guineapig	خنزير غينيا	noun	hard
+guitarcase	حالة الغيتار	noun	hard
+gunpowder	البارود	verb	hard
+gusty	عاصف	noun	easy
+gypsy	غجري	noun	easy
+haberdashery	الخردوات	noun	hard
+hairbrush	فرشاة شعر	noun	hard
+hairclip	دبوس الشعر	noun	medium
+hairdo	تسريحة	noun	medium
+hairdryer	مجفف شعر	verb	hard
+hairline	شعري	noun	medium
+hairpin	دبوس الشعر	noun	medium
+hairspray	مثبتات الشعر	noun	hard
+hairstylist	مصفف شعر	noun	hard
+halibut	سمكة الهلبوت	noun	medium
+hallmark	السمة المميزة	noun	medium
+halogen	الهالوجين	verb	medium
+hamhock	أرجوحة	noun	medium
+hammerhead	رأس المطرقة	noun	hard
+handcart	عربة اليد	noun	medium
+handclap	تصفيق	noun	medium
+handcraft	الحرف اليدوية	noun	hard
+handcuff	الأصفاد	noun	medium
+handgrip	مقبض	noun	medium
+handhold	العروة	noun	medium
+handiwork	العمل اليدوي	noun	hard
+handlebar	المقود	noun	hard
+handprint	بصمة	noun	hard
+handrail	درابزين	noun	medium
+handstand	الوقوف على اليدين	noun	hard
+handtruck	عربة يدوية	noun	hard
+handwash	غسيل يدوي	noun	medium
+handwork	العمل اليدوي	noun	medium
+handyman	بارع	noun	medium
+hangglider	com.hangglider	verb	hard
+hangnail	com.hangnail	noun	medium
+hangout	يتسكع	noun	medium
+hankie	هانكي	noun	medium
+hardback	غلاف مقوى	noun	medium
+hardcover	غلاف فني	verb	hard
+hardhat	هاردهات	noun	medium
+hardtop	سطح صلب	noun	medium
+hardwire	سلك صلب	noun	medium
+harmonica	هارمونيكا	noun	hard
+harpist	عازف القيثارة	noun	medium
+harvester	حصاد	verb	hard
+hashbrown	هاش براون	noun	hard
+hatbox	هاتبوكس	noun	medium
+hatchet	الأحقاد	noun	medium
+hatmaker	صانع القبعات	verb	medium
+hayloft	المتبنى	noun	medium
+haymaker	تبان	verb	medium
+hayride	هيرايد	noun	medium
+haywire	أحمق	noun	medium
+hazelnut	البندق	noun	medium
+headboard	اللوح الأمامي	noun	hard
+headcount	عدد الموظفين	noun	hard
+headgear	أغطية الرأس	noun	medium
+headlamp	كشافات	noun	medium
+headlock	قفل الرأس	noun	medium
+headrest	مسند الرأس	noun	medium
+headroom	الإرتفاع	noun	medium
+headscarf	الحجاب	noun	hard
+headstand	الوقوف على اليدين	noun	hard
+headstone	شاهد القبر	noun	hard
+headwaiter	النادل الرئيسي	verb	hard
+headwind	الرياح المعاكسة	noun	medium
+healer	المعالج	verb	medium
+healthful	صحية	adjective	hard
+heartrate	معدل ضربات القلب	verb	hard
+heatwave	موجة الحر	noun	medium
+hedgeclip	مقطع التحوط	noun	hard
+heiress	وريثة	noun	medium
+helipad	مهبط طائرات الهليكوبتر	noun	medium
+helpdesk	مكتب المساعدة	noun	medium
+henhouse	بيت الدجاج	noun	medium
+henna	الحناء	noun	easy
+herbicide	مبيدات الأعشاب	noun	hard
+herringbone	متعرجة	noun	hard
+hibachi	هيباتشي	noun	medium
+hickory	جوز	noun	medium
+hideaway	مخبأ	noun	medium
+hideout	مخبأ	noun	medium
+highchair	كرسي مرتفع	noun	hard
+highheel	كعب عالي	noun	medium
+highrise	شاهقة	noun	medium
+hilltop	قمة التل	noun	medium
+hindquarter	com.hindquar	verb	hard
+hipbone	العظم الحرقفي	noun	medium
+hipster	محب	verb	medium
+hitchhike	توصيل مجاني	noun	hard
+hobbyhorse	هواية	noun	hard
+hobgoblin	غول	noun	hard
+hockeystick	عصا الهوكي	noun	hard
+hogwash	هراء	noun	medium
+holdup	أصمد	noun	medium
+holster	الحافظة	verb	medium
+homemaker	ربة منزل	verb	hard
+honeybee	نحلة العسل	noun	medium
+honeymoon	شهر العسل	noun	hard
+honeycomb	قرص العسل	noun	hard
+hookworm	الدودة الشصية	noun	medium
+hornet	زنبور	noun	medium
+horoscope	ابراج	noun	hard
+horsefly	ذبابة الخيل	adverb	medium
+horseman	فارس	noun	medium
+horseshoe	حدوة حصان	noun	hard
+horseradish	الفجل	adjective	hard
+hotline	الخط الساخن	noun	medium
+hotplate	موقد	verb	medium
+houseboat	المركب	noun	hard
+housecat	قطة منزلية	noun	medium
+housecoat	معطف المنزل	noun	hard
+housefly	ذبابة منزلية	adverb	medium
+housekeeper	مدبرة منزل	verb	hard
+housetop	سطح المنزل	noun	medium
+hovercraft	الحوامات	noun	hard
+hubcap	إطار العجلة	noun	medium
+huckleberry	التوت	noun	hard
+hula	حولا	noun	easy
+hoop	طارة	noun	easy
+humanoid	android	noun	medium
+hunchback	أحدب	noun	hard
+husky	أجش	noun	easy
+icebox	ثلاجة	noun	medium
+icebreaker	كاسحة الجليد	verb	hard
+icecap	com.icecap	noun	medium
+icecream	بوظة	noun	medium
+icemaker	صانع الجليد	verb	medium
+iconoclast	تحطيم الأيقونات	noun	hard
+imagemaker	صانع الصور	verb	hard
+impala	إمبالا	noun	medium
+inchworm	دودة بوصة	noun	medium
+infirmary	المستوصف	noun	hard
+inkblot	بقعة الحبر	noun	medium
+inkjet	النافثة للحبر	noun	medium
+inkwell	محبرة	noun	medium
+innkeeper	صاحب الحانة	verb	hard
+insecticide	مبيد حشري	noun	hard
+insideout	من الداخل إلى الخارج	noun	hard
+inspector	مفتش	noun	hard
+instep	مشط القدم	noun	medium
+intercom	الاتصال الداخلي	noun	medium
+internist	طبيب باطني	noun	hard
+introvert	منطوي	noun	hard
+ironclad	مدرع	noun	medium
+ironwork	أعمال حديدية	noun	medium
+irrigate	ري	verb	medium
+islander	سكان الجزيرة	verb	medium
+jawbone	عظم الفك	noun	medium
+jawbreaker	com.jawbreaker	verb	hard
+jazzband	موسيقى الجاز	noun	medium
+jellybean	هلام الفول	noun	hard
+jigsaw	بانوراما	noun	medium
+jingle	جلجل	noun	medium
+jobholder	صاحب العمل	verb	hard
+jockey	الفارس	noun	medium
+jogger	عداء ببطء	verb	medium
+joiner	نجار	verb	medium
+joystick	عصا التحكم	noun	medium
+juggler	المشعوذ	verb	medium
+jukebox	com.jukebox	noun	medium
+jumpsuit	بذلة	noun	medium
+junkfood	الوجبات السريعة	noun	medium
+junkyard	ساحة الخردة	noun	medium
+kayaker	كايكر	verb	medium
+kebab	كباب	noun	easy
+kennel	بيت الكلب	noun	medium
+keychain	سلسلة المفاتيح	noun	medium
+keyhole	ثقب المفتاح	noun	medium
+keynote	الكلمة الرئيسية	noun	medium
+kickball	ركل الكرة	noun	medium
+kickstand	مسنده	noun	hard
+kidnapper	الخاطف	verb	hard
+kimono	كيمونو	noun	medium
+kindergartener	روضة أطفال	verb	hard
+kingfish	كنعد	adjective	medium
+kingpin	الملك	noun	medium
+kios	أكشاك	noun	easy
+kiosk	كشك	noun	easy
+kitchenware	أدوات المطبخ	noun	hard
+knapsack	حقيبة	noun	medium
+kneecap	الرضفة	noun	medium
+kneepad	نيباد	noun	medium
+knockdown	صرع	noun	hard
+knocker	مطرقة	verb	medium
+knothole	عقدة	noun	medium
+koi	كوي	noun	easy
+kryptonite	الكريبتونيت	noun	hard
+labrador	لابرادور	noun	medium
+ladybird	الدعسوقة	noun	medium
+lakeshore	شاطئ البحيرة	noun	hard
+lakeside	على ضفاف البحيرة	noun	medium
+lamppost	عمود اضاءة	noun	medium
+landform	شكل الأرض	noun	medium
+landlady	صاحبة المنزل	noun	medium
+landlord	المالك	noun	medium
+landmine	لغم أرضي	noun	medium
+landslide	انهيار أرضي	noun	hard
+langoustine	لانجوستين	noun	hard
+lanternfish	سمكة الفانوس	adjective	hard
+larkspur	لاركسبور	noun	medium
+lasagna	لازانيا	noun	medium
+lasso	لاسو	noun	easy
+latchkey	مفتاح المزلاج	noun	medium
+laundromat	مغسلة	noun	hard
